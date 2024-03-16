@@ -9,6 +9,9 @@ module.exports = {
       screens:{
         '400': '400px',
         '1404': '1404px',
+        '375': '375px',
+        '500': '500px',
+        '450': '450px',
       },
       colors:{
         'yellow': '#EEE4B1',

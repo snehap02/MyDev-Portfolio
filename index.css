@@ -12,8 +12,28 @@
         font-family: anonymousL;
         src: url("./public/fonts/Anonymous\ Pro.ttf");
     }
-
-    .nameText{
-    font-family: 'anonymousB';
+    @font-face {
+        font-family: gintronicMedium;
+        src: url("./public/fonts/GintronicMedium.ttf");
+    }
+    @font-face {
+        font-family: gintronicThin;
+        src: url("./public/fonts/GintronicThin.ttf");
+    }
+    @font-face {
+        font-family: monalisa;
+        src: url("./public/fonts/Monolisa\ Font.ttf");
+    }
+    .small{
+        font-family: 'monalisa';
+    }
+    .desc{
+        font-family: 'monalisa';
+    }
+    .details{
+        font-family: 'monalisa';
+    }
+    .resume{
+        font-family: 'gintronicMedium';
     }
 }
