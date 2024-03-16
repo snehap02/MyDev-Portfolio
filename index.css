@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    @font-face {
+        font-family: anonymousB;
+        src: url("./public/fonts/Anonymous\ Pro\ B.ttf");
+    }
+    @font-face {
+        font-family: anonymousL;
+        src: url("./public/fonts/Anonymous\ Pro.ttf");
+    }
+
+    .nameText{
+    font-family: 'anonymousB';
+    }
+}
