@@ -14,12 +14,12 @@ module.exports = {
         '450': '450px',
       },
       colors:{
-        'yellow': '#EEE4B1',
-        'blue': '#387ADF',
-        'sky': '#86B6F6',
-        'pink': '#E9A8F2',
-        'orange': '#F6995C',
-        'green': '#87A922'
+        'compYellow': '#EEE4B1',
+        'textBlue': '#387ADF',
+        'textSky': '#86B6F6',
+        'textPink': '#E9A8F2',
+        'textOrange': '#F6995C',
+        'commentGreen': '#87A922'
       }
     },
   },
