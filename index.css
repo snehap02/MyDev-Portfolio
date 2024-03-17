@@ -6,23 +6,23 @@
 @layer components {
     @font-face {
         font-family: anonymousB;
-        src: url("./public/fonts/Anonymous\ Pro\ B.ttf");
+        src: url("/public/Anonymous\ Pro\ B.ttf");
     }
     @font-face {
         font-family: anonymousL;
-        src: url("./public/fonts/Anonymous\ Pro.ttf");
+        src: url("/public/Anonymous\ Pro.ttf");
     }
     @font-face {
         font-family: gintronicMedium;
-        src: url("./public/fonts/GintronicMedium.ttf");
+        src: url("/public/GintronicMedium.ttf");
     }
     @font-face {
         font-family: gintronicThin;
-        src: url("./public/fonts/GintronicThin.ttf");
+        src: url("/public/GintronicThin.ttf");
     }
     @font-face {
         font-family: monalisa;
-        src: url("./public/fonts/Monolisa\ Font.ttf");
+        src: url("/public/Monolisa\ Font.ttf");
     }
     .small{
         font-family: 'monalisa';
@@ -38,5 +38,12 @@
     }
     .code{
         font-family: 'monalisa';
+    }
+    .no-scrollbar::-webkit-scrollbar{
+        display: none;
+    }
+    .no-scrollbar{
+        -ms-text-overflow-style: none;
+        scrollbar-width: none;
     }
 }

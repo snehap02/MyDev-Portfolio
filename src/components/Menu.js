@@ -167,7 +167,7 @@ const Menu = () => {
       }
   }
   return (
-    <div className="list-items w-full h-10 bg-[#2d2c2c] mt-8 text-white fixed top-0 overflow-x-scroll overflow-scroll lg:overflow-x-hidden overflow-y-hidden">
+    <div className="list-items w-full h-10 bg-[#2d2c2c] mt-8 text-white fixed top-0 overflow-x-scroll overflow-scroll lg:overflow-x-hidden overflow-y-hidden no-scrollbar">
       <ul className="lists flex text-white py-2 w-[190%] sm:w-[120%] md:w-[100%] lg:w-[100%] xl:w-[70%] ml-7 lg:ml-[200px] -mt-[0.2rem]">
         <li className={`listOne ${isActive('/') && 'bg-[#1e1e1e] border-t-2 border-yellow-500'}`}>
           <Link

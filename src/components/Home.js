@@ -79,7 +79,7 @@ const Home = () => {
 
           {/* 🟡 */}
         </div>
-        <div className="output flex flex-col text-right -ml-48 1440:-ml-0 mt-10">
+        <div className="output flex flex-col text-right -ml-48 1496:-ml-0 mt-10">
         <div className="small font-bold text-6xl pt-20 text-textBlue">
           <h1 className="px-3 uppercase">&lt; Sneha</h1>
           <h1 className="px-3 uppercase">Purkayastha &gt;</h1>
