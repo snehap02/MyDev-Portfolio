@@ -28,7 +28,7 @@ import {
 
 const Sidebars = () => {
   return (
-    <div className="sidebars flex fixed z-50">
+    <div className="sidebars flex fixed z-[9999]">
       <div className="h-[100vh] w-10 bg-[#303030] sm:w-12 flex items-center gap-4 flex-col">
         <div className="github pt-10 hover:border-l-2 hover:border-white">
           <a href="https://github.com/snehap02" target="blank">

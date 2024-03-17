@@ -16,7 +16,7 @@ import {
 const Header = () => {
   return (
     <div className="menu-bar">
-      <header className="h-9 bg-[#3a3a3a] fixed top-0 flex justify-between items-center w-full z-[100]">
+      <header className="h-9 bg-[#3a3a3a] fixed top-0 flex justify-between items-center w-full z-[10000]">
         <div className="first-div flex justify-center items-center gap-4 text-[12px] font-medium text-neutral-400 font-openSans ml-2">
           <img src={VSCODE_LOGO} alt="vscode logo" className="w-5" />
           <div className="menu hidden 1404:flex justify-center items-center gap-1">
