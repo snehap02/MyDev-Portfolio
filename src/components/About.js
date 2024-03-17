@@ -46,7 +46,7 @@ const About = () => {
         </div>
         <div className="px-8 -ml-7 flex flex-col tracking-wider">
           <div className="readme bg-opacity-70 text-white px-1">
-            <h1 className="text-3xl sm:text-4xl">README</h1>
+            <h1 className="text-3xl sm:text-4xl">README.md</h1>
           </div>
           <h2 className="about1 mt-5 sm:mt-8 text-base sm:text-lg lg:text-base lg:w-[48rem] z-[9999]">
             <span className="text-textOrange">
@@ -72,6 +72,9 @@ const About = () => {
             <span className="text-textSky">Let's collaborate to elevate your digital presence</span><span className="text-textPink"> and create a
             seamless user experience.</span>
           </h2>
+          {/* <h2 className="hidden lg:flex -mt-14">
+            I Write on
+          </h2> */}
         </div>
       </div>
     </div>

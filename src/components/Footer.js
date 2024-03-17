@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="footer flex justify-between items-center bottom-0 fixed z-50 w-full bg-[#2098e9] h-[1.45rem]">
+    <div className="footer flex justify-between items-center bottom-0 fixed z-[9999] w-full bg-[#2098e9] h-[1.45rem]">
       <div className="first-part flex justify-center items-center cursor-pointer">
         <div className="remote-window bg-green-700 hover:bg-green-600 px-3 py-[0.26rem]">
           <img src={REMOTE} alt="remote window" />
