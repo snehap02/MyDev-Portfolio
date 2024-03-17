@@ -12,6 +12,7 @@ module.exports = {
         '375': '375px',
         '500': '500px',
         '450': '450px',
+        '1440': '1440px',
       },
       colors:{
         'compYellow': '#EEE4B1',

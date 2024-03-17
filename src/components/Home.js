@@ -35,10 +35,10 @@ const Home = () => {
           <h1 className="px-3 uppercase">&lt; Sneha</h1>
           <h1 className="px-3 uppercase">Purkayastha &gt;</h1>
         </div>
-        <h2 className="desc text-yellow text-lg ml-3 mt-4 375:text-xl 450:text-2xl 500:text-3xl md:text-4xl">
-          <span className="text-pink">A</span> Front-end Developer
+        <h2 className="desc text-compYellow text-lg ml-3 mt-4 375:text-xl 450:text-2xl 500:text-3xl md:text-4xl">
+          <span className="text-textPink">A</span> Front-end Developer
         </h2>
-        <h3 className="details px-10 -ml-8 mt-8 text-sky sm:text-xl">
+        <h3 className="details px-10 -ml-8 mt-8 text-textSky sm:text-xl">
           I craft visually appealing and user-friendly websites.
         </h3>
         <button className="resume mt-10 w-48 sm:w-56 text-left ml-2 bg-textOrange text-neutral-900 cursor-pointer px-2 py-3 font-bold rounded-md hover:bg-opacity-80 text-sm sm:text-base sm:px-3">
@@ -48,44 +48,44 @@ const Home = () => {
       <div className="desktop hidden xl:flex">
         <div className="code text-sm mt-20 font-medium">
           {/* 🟡 */}
-          <div className="text-textBlue text-opacity-30">&lt;div&gt;</div>
-          <div className="text-textBlue ml-2 mt-2 text-opacity-30">&lt;div&gt;</div>
-          <h1 className="mt-2 text-opacity-30">
-            <span className="text-textBlue ml-3 text-opacity-30">&lt;h1&gt;</span>
-            <span className="text-white text-opacity-30">&lt;Sneha Purkayastha&gt;</span>
-            <span className="text-textBlue text-opacity-30">&lt;/h1&gt;</span>
+          <div className="text-textBlue text-opacity-40">&lt;div&gt;</div>
+          <div className="text-textBlue ml-2 mt-2 text-opacity-40">&lt;div&gt;</div>
+          <h1 className="mt-2 text-opacity-40">
+            <span className="text-textBlue ml-3 text-opacity-40">&lt;h1&gt;</span>
+            <span className="text-white text-opacity-40">&lt;Sneha Purkayastha&gt;</span>
+            <span className="text-textBlue text-opacity-40">&lt;/h1&gt;</span>
           </h1>
-          <div className="text-textBlue ml-2 mt-2 text-opacity-30">&lt;/div&gt;</div>
-          <h2 className="mt-2 text-opacity-30">
-            <span className="text-textBlue ml-2 text-opacity-30">&lt;h2&gt;</span>
-            <span className="text-white text-opacity-30">A Front-end Developer</span>
-            <span className="text-textBlue text-opacity-30">&lt;/h2&gt;</span>
+          <div className="text-textBlue ml-2 mt-2 text-opacity-40">&lt;/div&gt;</div>
+          <h2 className="mt-2 text-opacity-40">
+            <span className="text-textBlue ml-2 text-opacity-40">&lt;h2&gt;</span>
+            <span className="text-white text-opacity-40">A Front-end Developer</span>
+            <span className="text-textBlue text-opacity-40">&lt;/h2&gt;</span>
           </h2>
-          <h3 className="mt-2 text-opacity-30">
-            <span className="text-textBlue ml-2 text-opacity-30">&lt;h3&gt;</span>
-            <span className="text-white text-opacity-30">
+          <h3 className="mt-2 text-opacity-40">
+            <span className="text-textBlue ml-2 text-opacity-40">&lt;h3&gt;</span>
+            <span className="text-white text-opacity-40">
               I craft visually appealing and user-friendly websites.
             </span>
-            <span className="text-textBlue text-opacity-30">&lt;/h3&gt;</span>
+            <span className="text-textBlue text-opacity-40">&lt;/h3&gt;</span>
           </h3>
-          <button className="mt-2 text-opacity-30">
-            <span className="text-textBlue ml-2 text-opacity-30">&lt;button&gt;</span>
-            <span className="text-textBlue text-opacity-30">&lt;a&gt;</span>
-            <span className="text-white text-opacity-30">Download My Resume</span>
-            <span className="text-textBlue text-opacity-30">&lt;/a&gt;</span>
-            <span className="text-textBlue text-opacity-30">&lt;/button&gt;</span>
+          <button className="mt-2 text-opacity-40">
+            <span className="text-textBlue ml-2 text-opacity-40">&lt;button&gt;</span>
+            <span className="text-textBlue text-opacity-40">&lt;a&gt;</span>
+            <span className="text-white text-opacity-40">Download My Resume</span>
+            <span className="text-textBlue text-opacity-40">&lt;/a&gt;</span>
+            <span className="text-textBlue text-opacity-40">&lt;/button&gt;</span>
           </button>
-          <div className="text-textBlue mt-2 text-opacity-30">&lt;/div&gt;</div>
+          <div className="text-textBlue mt-2 text-opacity-40">&lt;/div&gt;</div>
 
           {/* 🟡 */}
         </div>
-        <div className="output flex flex-col text-right -ml-48 2xl:-ml-0 mt-10">
+        <div className="output flex flex-col text-right -ml-48 1440:-ml-0 mt-10">
         <div className="small font-bold text-6xl pt-20 text-textBlue">
           <h1 className="px-3 uppercase">&lt; Sneha</h1>
           <h1 className="px-3 uppercase">Purkayastha &gt;</h1>
         </div>
         <h2 className="desc text-compYellow text-3xl ml-3 mt-4">
-          <span className="text-pink">A</span> Front-end Developer
+          <span className="text-textPink">A</span> Front-end Developer
         </h2>
         <div>
         <h3 className="details mt-8 text-textSky text-xl">
