@@ -5,7 +5,7 @@ import { INDIA } from "../utils/constants";
 const About = () => {
   return (
     <div className="about pt-20 ml-10 px-3 sm:px-4 lg:ml-52 bg-[#1e1e1e] min-h-[100vh] min-w-[100vw] overflow-x-hidden flex">
-      <div className="nums bg-[#1e1e1e] w-10 md:w-16 h-full flex flex-col items-center text-neutral-700 px-4">
+      <div className="nums bg-[#1e1e1e] w-10 md:w-16 h-full flex flex-col items-center text-neutral-700 px-4 lg:-ml-4">
         <h2>1</h2>
         <h2>2</h2>
         <h2>3</h2>
