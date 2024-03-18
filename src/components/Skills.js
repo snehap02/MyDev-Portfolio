@@ -34,13 +34,46 @@ const Skills = () => {
         <h2>.</h2>
         <h2>.</h2>
       </div>
-      <div className="skillsSection flex flex-col">
-        <div className="languageSection flex flex-col">
-          <h1 className="text-commentGreen uppercase italic tracking-wider">
+      <div className="skillsSection flex flex-col px-4 -ml-6 justify-evenly">
+        <div className="languageSection flex flex-col px-4 -mt-8 md:-mt-8">
+          <h1 className="text-commentGreen uppercase italic tracking-wider text-xl sm:text-2xl lg:text-[27px]">
             // Languages I Speak
           </h1>
-          <div className="html flex">
-            <h2 className="text-white">HTML</h2>
+          <div className="lang flex gap-4 mt-4 lg:gap-10">
+            <h2 className="text-white text-lg bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">HTML</h2>
+            <h2 className="text-white text-lg bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">CSS</h2>
+            <h2 className="text-white text-lg bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">JS</h2>
+          </div>
+        </div>
+        <div className="frameworkSection flex flex-col px-4">
+          <h1 className="text-commentGreen uppercase italic tracking-wider text-xl sm:text-2xl lg:text-[27px]">
+            // Frameworks I Use
+          </h1>
+          <div className="lang flex gap-6 flex-wrap mt-4">
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">Tailwind CSS</h2>
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">React</h2>
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">Bootstrap</h2>
+          </div>
+        </div>
+        <div className="toolsSection flex flex-col px-4">
+          <h1 className="text-commentGreen uppercase italic tracking-wider text-xl sm:text-2xl lg:text-[27px]">
+            // Tools In My Toolkit
+          </h1>
+          <div className="lang flex gap-6 flex-wrap mt-4">
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">GIT</h2>
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">github</h2>
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">vs code</h2>
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">codepen</h2>
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">wordpress</h2>
+          </div>
+        </div>
+        <div className="toolsSection flex flex-col pb-10 px-4">
+          <h1 className="text-commentGreen uppercase italic tracking-wider text-xl sm:text-2xl lg:text-[27px]">
+            // Design Tools I Navigate
+          </h1>
+          <div className="lang flex gap-6 flex-wrap mt-4">
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">figma</h2>
+            <h2 className="text-white text-lg uppercase bg-neutral-700 rounded-md px-3 sm:text-xl sm:px-5 sm:py-1">Thunkable</h2>
           </div>
         </div>
       </div>
@@ -49,3 +82,5 @@ const Skills = () => {
 };
 
 export default Skills;
+
+// EEC759

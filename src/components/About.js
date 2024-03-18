@@ -72,9 +72,6 @@ const About = () => {
             <span className="text-textSky">Let's collaborate to elevate your digital presence</span><span className="text-textPink"> and create a
             seamless user experience.</span>
           </h2>
-          {/* <h2 className="hidden lg:flex -mt-14">
-            I Write on
-          </h2> */}
         </div>
       </div>
     </div>
