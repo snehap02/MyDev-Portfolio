@@ -75,30 +75,7 @@
     .about4 {
         font-family: 'monalisa';
     }
-
-    /* .languages h1 {
-        background: rgb(4, 74, 0);
-        background: linear-gradient(90deg, rgba(4, 74, 0, 0.9893207282913166) 0%, rgba(0, 0, 0, 0.4318977591036415) 53%, rgba(0, 0, 0, 0.03974089635854339) 100%);
-        font-family: 'gintronicThin';
-    }
-
-    .frameworks h1 {
-        background: rgb(0, 30, 84);
-        background: linear-gradient(90deg, rgba(0, 30, 84, 0.9893207282913166) 0%, rgba(0, 0, 0, 0.4318977591036415) 53%, rgba(0, 0, 0, 0.03974089635854339) 100%);
-        font-family: 'gintronicThin';
-    }
-
-    .tools h1 {
-        background: rgb(103, 77, 0);
-        background: linear-gradient(90deg, rgba(105, 80, 0, 0.989) 0%, rgba(0, 0, 0, 0.4318977591036415) 53%, rgba(0, 0, 0, 0.03974089635854339) 100%);
-        font-family: 'gintronicThin';
-    }
-
-    .designs h1{
-        background: rgb(121, 0, 110);
-        background: linear-gradient(90deg, rgba(121, 0, 110, 0.9893207282913166) 0%, rgba(0, 0, 0, 0.4318977591036415) 53%, rgba(0, 0, 0, 0.03974089635854339) 100%);
-        font-family: 'gintronicThin';
-    } */
+    
     .languages h1{
         font-family: 'gintronicMedium';
     }
@@ -112,6 +89,9 @@
         font-family: 'gintronicMedium';
     }
     .lang h1{
+        font-family: 'monalisa';
+    }
+    .skillsSection h1{
         font-family: 'monalisa';
     }
 }
