@@ -1,8 +1,7 @@
 import React from "react";
-import namasteDev from "./namasteDev.jpg";
-import frontEnd from "./frontend.png";
-import uiux from "./uiux.png";
-import gitandgithub from "./gitandgithub.png";
+import namasteReact from "./nr.png";
+import coursera from "./coursera.png";
+import { CREDENTIAL } from "../utils/constants";
 
 const Certification = () => {
   return (
@@ -39,8 +38,157 @@ const Certification = () => {
         <h2>.</h2>
       </div>
       <div className="align flex flex-col w-[80%]">
-        <div className="banner uppercase text-xl md:text-3xl lg:text-4xl md:mt-4 md:tracking-wider flex flex-col md:flex-row md:gap-2 text-center md:justify-center text-neutral-500 -ml-4 font-semibold">
+        <div className="banner uppercase text-xl md:text-3xl lg:text-4xl xl:text-5xl md:mt-4 md:tracking-wider flex flex-col md:flex-row md:gap-2 text-center md:justify-center text-neutral-500 -ml-4 font-semibold">
           <h1>Certificates</h1>
+        </div>
+        <div className="certificates flex flex-col lg:gap-8">
+          <div className="certificate1 mt-7">
+            <div className="one flex gap-2 xl:gap-8">
+              <img src={namasteReact} alt="" className="w-10 h-10 mt-1 lg:w-20 lg:h-20" />
+              <div className="details">
+                <h1 className="text-white lg:text-xl">Namaste React Course</h1>
+                <h2 className="text-xs lg:text-base text-neutral-500 cursor-pointer">
+                  <a href="https://namastedev.com/" target="blank">
+                    NamasteDev.com
+                  </a>
+                </h2>
+                <div className="flex gap-2 text-white curspor-pointer bg-neutral-700 justify-center items-center py-2 rounded-full ring-2 ring-neutral-500 bg-opacity-45 mt-2 w-44">
+                  <a
+                    href="https://namastedev.com/sneha.purkayastha96/certificates/namaste-react"
+                    target="blank"
+                    className="text-xs"
+                  >
+                    Show credential
+                  </a>
+                  <img src={CREDENTIAL} alt="credential" />
+                </div>
+                <div className="skills flex text-xs lg:text-sm mt-3 text-neutral-500">
+                  <h2>Skills:</h2>
+                  <div className="flex flex-wrap xl:w-[46rem]">
+                    <h3>
+                      Software Development, Javascript Libraries, Front-end
+                      Development, Javascript, React.js, Redux.js, Debugging,
+                      Parcel, npm, TailwindCSS, React Hooks
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="certificate2 mt-7">
+            <div className="one flex gap-2 xl:gap-8">
+              <img src={coursera} alt="coursera" className="w-10 h-10 mt-1 lg:w-20 lg:h-20" />
+              <div className="details">
+                <div className="flex flex-col">
+                  <h1 className="text-white lg:text-xl">
+                    Introduction to HTML, CSS & Javascript
+                  </h1>
+                  <h2 className="text-xs lg:text-base text-neutral-500 cursor-pointer">
+                    <a href="https://www.coursera.org/" target="blank">
+                      coursera.org
+                    </a>
+                  </h2>
+                  <h3 className="font-bold text-xs text-neutral-400 lg:text-sm">IBM</h3>
+                </div>
+
+                <div className="flex gap-2 text-white curspor-pointer bg-neutral-700 justify-center items-center py-2 rounded-full ring-2 ring-neutral-500 bg-opacity-45 mt-2 w-44">
+                  <a
+                    href="https://www.coursera.org/account/accomplishments/records/XQYA4JDY7LMC"
+                    target="blank"
+                    className="text-xs"
+                  >
+                    Show credential
+                  </a>
+                  <img src={CREDENTIAL} alt="credential" />
+                </div>
+                <div className="skills flex text-xs lg:text-sm mt-3 text-neutral-500">
+                  <h2>Skills:</h2>
+                  <div className="flex flex-wrap">
+                    <h3>HTML, CSS, Javascript, Front-end developement</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="certificate3 mt-7">
+            <div className="one flex gap-2 xl:gap-8">
+              <img src={coursera} alt="coursera" className="w-10 h-10 mt-1 lg:w-20 lg:h-20" />
+              <div className="details">
+                <div className="flex flex-col">
+                  <h1 className="text-white lg:text-xl">
+                  Designing User Interfaces and Experiences (UI/UX)
+                  </h1>
+                  <h2 className="text-xs lg:text-base text-neutral-500 cursor-pointer">
+                    <a href="https://www.coursera.org/" target="blank">
+                      coursera.org
+                    </a>
+                  </h2>
+                  <h3 className="font-bold text-xs text-neutral-400 lg:text-base">IBM</h3>
+                </div>
+
+                <div className="flex gap-2 text-white curspor-pointer bg-neutral-700 justify-center items-center py-2 rounded-full ring-2 ring-neutral-500 bg-opacity-45 mt-2 w-44">
+                  <a
+                    href="https://www.coursera.org/account/accomplishments/records/5SDM7QZRA5EU"
+                    target="blank"
+                    className="text-xs"
+                  >
+                    Show credential
+                  </a>
+                  <img src={CREDENTIAL} alt="credential" />
+                </div>
+                <div className="skills flex text-xs lg:text-sm mt-3 text-neutral-500">
+                  <h2>Skills:</h2>
+                  <div className="flex flex-wrap">
+                    <h3>Website Wireframe, UI designs, Figma, User Experience</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="certificate4 mt-7 pb-32">
+            <div className="one flex gap-2 xl:gap-8">
+              <img src={coursera} alt="coursera" className="w-10 h-10 mt-1 lg:w-20 lg:h-20" />
+              <div className="details">
+                <div className="flex flex-col">
+                  <h1 className="text-white lg:text-xl">
+                  Getting Started with Git and GitHub
+                  </h1>
+                  <h2 className="text-xs lg:text-base text-neutral-500 cursor-pointer">
+                    <a href="https://www.coursera.org/" target="blank">
+                      coursera.org
+                    </a>
+                  </h2>
+                  <h3 className="font-bold text-xs text-neutral-400 lg:text-base">IBM</h3>
+                </div>
+
+                <div className="flex gap-2 text-white curspor-pointer bg-neutral-700 justify-center items-center py-2 rounded-full ring-2 ring-neutral-500 bg-opacity-45 mt-2 w-44">
+                  <a
+                    href="https://www.coursera.org/account/accomplishments/records/CP48NCQPHRK6"
+                    target="blank"
+                    className="text-xs"
+                  >
+                    Show credential
+                  </a>
+                  <img src={CREDENTIAL} alt="credential" />
+                </div>
+                <div className="skills flex text-xs lg:text-sm mt-3 text-neutral-500">
+                  <h2>Skills:</h2>
+                  <div className="flex flex-wrap">
+                    <h3>Distributed Version Control System, Git, Github, Open Source, Cloning & Forking</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+
+
+
         </div>
       </div>
     </div>
