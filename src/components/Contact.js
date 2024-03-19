@@ -1,7 +1,9 @@
 import React from "react";
 
 const Contact = () => {
-  const arr = ["jhdlkjshd"];
+  const arr = {
+    sdhcjlkc: "dsdcsdc",
+  };
   console.log(arr);
   return (
     <div className="contact pt-20 ml-10 px-3 sm:px-4 lg:ml-52 bg-[#1e1e1e] min-h-[100vh] min-w-[100vw] overflow-x-hidden flex">
@@ -36,11 +38,11 @@ const Contact = () => {
         <h2>.</h2>
         <h2>.</h2>
       </div>
-      <div className="contact flex flex-col w-[80%]">
-        <div className="heading uppercase text-xl 500:text-3xl lg:text-4xl mt-20 md:tracking-wider flex flex-col md:flex-row md:gap-2 text-center md:justify-center text-commentGreen -ml-4 font-semibold italic">
+      <div className="contact flex flex-col w-[80%] xl:gap-20">
+        <div className="heading uppercase text-xl 500:text-3xl lg:text-4xl xl:text-5xl mt-20 md:tracking-wider flex flex-col md:flex-row md:gap-2 text-center md:justify-center text-commentGreen -ml-4 font-semibold italic">
           <h1>// Let's Get In Touch</h1>
         </div>
-        <div className="details-mob flex flex-col mt-20 lg:hidden">
+        <div className="details-mob flex flex-col mt-20 1132:hidden">
           <h1 className="text-compYellow text-center -mt-6 -ml-2 sm:text-lg md:text-xl md:-ml-0 px-10">
             Feel free to reach out to me through any of the following channels:
           </h1>
@@ -52,7 +54,11 @@ const Contact = () => {
 
             <span className="text-textOrange">
               <br className="sm:hidden" />'
-              <a href="" className="cursor-pointer">
+              <a
+                href="mailto: sneha.purkayastha96@gmail.com"
+                className="cursor-pointer hover:underline-offset-2 hover:underline"
+                target="blank"
+              >
                 Gmail
               </a>
               '
@@ -62,7 +68,11 @@ const Contact = () => {
             <span className="text-textOrange">'</span>
 
             <span className="text-textOrange">
-              <a href="" className="cursor-pointer">
+              <a
+                href="https://twitter.com/SnehaPurkayast8"
+                target="blank"
+                className="cursor-pointer hover:underline-offset-2 hover:underline"
+              >
                 Twitter
               </a>
               '
@@ -71,7 +81,11 @@ const Contact = () => {
             <br className="sm:hidden" />
             <span className="text-textOrange">'</span>
             <span className="text-textOrange">
-              <a href="" className="cursor-pointer">
+              <a
+                href="https://www.linkedin.com/in/sneha-purkayastha-3b3aa1160/"
+                target="blank"
+                className="cursor-pointer hover:underline-offset-2 hover:underline"
+              >
                 LinkedIn
               </a>
               '
@@ -80,24 +94,56 @@ const Contact = () => {
             <span>]</span>
           </div>
         </div>
-        <div className="details-web px-3 hidden lg:flex lg:flex-col lg:px-10">
+        <div className="details-web px-3 hidden 1132:flex 1077:flex-col lg:px-10">
           <h1 className="text-compYellow text-center mt-5 -ml-2 sm:text-lg md:text-xl md:-ml-0 md:mt-8">
             Feel free to reach out to me through any of the following channels:
           </h1>
-          <div className="socials text-center text-white bg-red-500 text-xs 375:text-sm">
-            <span>const</span>
-            <span> Contacts</span>
+          <div className="socials text-center text-white 1132:text-xl mt-10 -ml-10">
+            <span className="text-textBlue">const</span>
+            <span className="text-[#39caff]"> Contacts</span>
             <span> =</span>
             <span> {"{"}</span>
             <br />
-            <span className="lg:ml-72">email:</span>
+            <span className="ml-96 text-textSky">email:</span>
             <span>
               {" "}
-              <a href="" className="cursor-pointer">
-                sneha.purkayastha96@gmail.com
+              <a
+                href="mailto: sneha.purkayastha96@gmail.com"
+                target="blank"
+                className="cursor-pointer text-textOrange hover:underline-offset-2 hover:underline"
+              >
+                {"'"}sneha.purkayastha96@gmail.com{"'"}
               </a>{" "}
               ,
             </span>
+            <br />
+            <span className="ml-[15rem] text-textSky">twitter:</span>
+            <span>
+              {" "}
+              <a
+                href="https://twitter.com/SnehaPurkayast8"
+                target="blank"
+                className="cursor-pointer text-textOrange hover:underline-offset-2 hover:underline"
+              >
+                {"'"}@SnehaPurkayast8{"'"}
+              </a>{" "}
+              ,
+            </span>
+            <br />
+            <span className="ml-[16.2rem] text-textSky">linkedin:</span>
+            <span>
+              {" "}
+              <a
+                href="https://www.linkedin.com/in/sneha-purkayastha-3b3aa1160/"
+                target="blank"
+                className="cursor-pointer text-textOrange hover:underline-offset-2 hover:underline"
+              >
+                {"'"}Sneha Purkayastha{"'"}
+              </a>{" "}
+              ,
+            </span>
+            <br />
+            <span className="-ml-32"> {"}"}</span>
           </div>
         </div>
       </div>
