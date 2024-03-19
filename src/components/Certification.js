@@ -38,13 +38,17 @@ const Certification = () => {
         <h2>.</h2>
       </div>
       <div className="align flex flex-col w-[80%]">
-        <div className="banner uppercase text-xl md:text-3xl lg:text-4xl xl:text-5xl md:mt-4 md:tracking-wider flex flex-col md:flex-row md:gap-2 text-center md:justify-center text-neutral-500 -ml-4 font-semibold">
-          <h1>Certificates</h1>
+        <div className="banner uppercase text-xl md:text-3xl lg:text-4xl mt-2 md:mt-4 md:tracking-wider flex flex-col md:flex-row md:gap-2 text-center md:justify-center text-commentGreen -ml-4 font-semibold italic">
+          <h1>// Certificates</h1>
         </div>
         <div className="certificates flex flex-col lg:gap-8">
-          <div className="certificate1 mt-7">
+          <div className="certificate1 mt-7 lg:mt-14">
             <div className="one flex gap-2 xl:gap-8">
-              <img src={namasteReact} alt="" className="w-10 h-10 mt-1 lg:w-20 lg:h-20" />
+              <img
+                src={namasteReact}
+                alt="namaste react"
+                className="w-10 h-10 mt-1 lg:w-20 lg:h-20"
+              />
               <div className="details">
                 <h1 className="text-white lg:text-xl">Namaste React Course</h1>
                 <h2 className="text-xs lg:text-base text-neutral-500 cursor-pointer">
@@ -78,7 +82,11 @@ const Certification = () => {
 
           <div className="certificate2 mt-7">
             <div className="one flex gap-2 xl:gap-8">
-              <img src={coursera} alt="coursera" className="w-10 h-10 mt-1 lg:w-20 lg:h-20" />
+              <img
+                src={coursera}
+                alt="coursera"
+                className="w-10 h-10 mt-1 lg:w-20 lg:h-20"
+              />
               <div className="details">
                 <div className="flex flex-col">
                   <h1 className="text-white lg:text-xl">
@@ -89,7 +97,9 @@ const Certification = () => {
                       coursera.org
                     </a>
                   </h2>
-                  <h3 className="font-bold text-xs text-neutral-400 lg:text-sm">IBM</h3>
+                  <h3 className="font-bold text-xs text-neutral-400 lg:text-sm">
+                    IBM
+                  </h3>
                 </div>
 
                 <div className="flex gap-2 text-white curspor-pointer bg-neutral-700 justify-center items-center py-2 rounded-full ring-2 ring-neutral-500 bg-opacity-45 mt-2 w-44">
@@ -114,18 +124,24 @@ const Certification = () => {
 
           <div className="certificate3 mt-7">
             <div className="one flex gap-2 xl:gap-8">
-              <img src={coursera} alt="coursera" className="w-10 h-10 mt-1 lg:w-20 lg:h-20" />
+              <img
+                src={coursera}
+                alt="coursera"
+                className="w-10 h-10 mt-1 lg:w-20 lg:h-20"
+              />
               <div className="details">
                 <div className="flex flex-col">
                   <h1 className="text-white lg:text-xl">
-                  Designing User Interfaces and Experiences (UI/UX)
+                    Designing User Interfaces and Experiences (UI/UX)
                   </h1>
                   <h2 className="text-xs lg:text-base text-neutral-500 cursor-pointer">
                     <a href="https://www.coursera.org/" target="blank">
                       coursera.org
                     </a>
                   </h2>
-                  <h3 className="font-bold text-xs text-neutral-400 lg:text-base">IBM</h3>
+                  <h3 className="font-bold text-xs text-neutral-400 lg:text-base">
+                    IBM
+                  </h3>
                 </div>
 
                 <div className="flex gap-2 text-white curspor-pointer bg-neutral-700 justify-center items-center py-2 rounded-full ring-2 ring-neutral-500 bg-opacity-45 mt-2 w-44">
@@ -141,27 +157,35 @@ const Certification = () => {
                 <div className="skills flex text-xs lg:text-sm mt-3 text-neutral-500">
                   <h2>Skills:</h2>
                   <div className="flex flex-wrap">
-                    <h3>Website Wireframe, UI designs, Figma, User Experience</h3>
+                    <h3>
+                      Website Wireframe, UI designs, Figma, User Experience
+                    </h3>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="certificate4 mt-7 pb-32">
+          <div className="certificate4 mt-7 pb-20 lg:pb-32">
             <div className="one flex gap-2 xl:gap-8">
-              <img src={coursera} alt="coursera" className="w-10 h-10 mt-1 lg:w-20 lg:h-20" />
+              <img
+                src={coursera}
+                alt="coursera"
+                className="w-10 h-10 mt-1 lg:w-20 lg:h-20"
+              />
               <div className="details">
                 <div className="flex flex-col">
                   <h1 className="text-white lg:text-xl">
-                  Getting Started with Git and GitHub
+                    Getting Started with Git and GitHub
                   </h1>
                   <h2 className="text-xs lg:text-base text-neutral-500 cursor-pointer">
                     <a href="https://www.coursera.org/" target="blank">
                       coursera.org
                     </a>
                   </h2>
-                  <h3 className="font-bold text-xs text-neutral-400 lg:text-base">IBM</h3>
+                  <h3 className="font-bold text-xs text-neutral-400 lg:text-base">
+                    IBM
+                  </h3>
                 </div>
 
                 <div className="flex gap-2 text-white curspor-pointer bg-neutral-700 justify-center items-center py-2 rounded-full ring-2 ring-neutral-500 bg-opacity-45 mt-2 w-44">
@@ -177,18 +201,15 @@ const Certification = () => {
                 <div className="skills flex text-xs lg:text-sm mt-3 text-neutral-500">
                   <h2>Skills:</h2>
                   <div className="flex flex-wrap">
-                    <h3>Distributed Version Control System, Git, Github, Open Source, Cloning & Forking</h3>
+                    <h3>
+                      Distributed Version Control System, Git, Github, Open
+                      Source, Cloning & Forking
+                    </h3>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-
-          
-
-
-
         </div>
       </div>
     </div>

@@ -97,4 +97,10 @@
     .banner{
         font-family: 'monalisa'
     }
+    .heading{
+        font-family: 'monalisa'
+    }
+    .details-mob, .details-web{
+        font-family: 'monalisa';
+    }
 }
