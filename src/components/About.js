@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import about from "./myImg.jpg";
 import { INDIA } from "../utils/constants";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "Sneha Purkayastha - About";
+  }, []);
   return (
     <div className="about pt-20 ml-10 px-3 sm:px-4 lg:ml-52 bg-[#1e1e1e] min-h-[100vh] min-w-[100vw] overflow-x-hidden flex">
       <div className="nums bg-[#1e1e1e] w-10 md:w-16 h-full flex flex-col items-center text-neutral-700 px-4 lg:-ml-4">

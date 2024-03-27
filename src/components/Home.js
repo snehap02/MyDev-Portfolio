@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Sneha Purkayastha - Home";
+  }, []);
   return (
     <div className="home pt-20 ml-10 lg:ml-52 bg-[#1e1e1e] min-h-[100vh] min-w-[100vw] overflow-x-hidden flex">
       <div className="nums bg-[#1e1e1e] w-10 md:w-16 h-full flex flex-col items-center text-neutral-700 px-4">

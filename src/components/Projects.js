@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 
 const Projects = () => {
+  useEffect(() => {
+    document.title = "Sneha Purkayastha - Projects";
+  }, []);
+
   return (
     <div className='projects pt-20 ml-10 px-3 sm:px-4 lg:ml-52 bg-[#1e1e1e] min-h-[100vh] min-w-[100vw] overflow-x-hidden flex'>
       <div className="nums bg-[#1e1e1e] w-10 md:w-16 h-full flex flex-col items-center text-neutral-700 px-4 lg:-ml-4">
