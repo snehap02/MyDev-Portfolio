@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 const Projects = () => {
   useEffect(() => {
@@ -6,7 +6,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className='projects pt-20 ml-10 px-3 sm:px-4 lg:ml-52 bg-[#1e1e1e] min-h-[100vh] min-w-[100vw] overflow-x-hidden flex'>
+    <div className="projects pt-20 ml-10 px-3 sm:px-4 lg:ml-52 bg-[#1e1e1e] min-h-[100vh] min-w-[100vw] overflow-x-hidden flex">
       <div className="nums bg-[#1e1e1e] w-10 md:w-16 h-full flex flex-col items-center text-neutral-700 px-4 lg:-ml-4">
         <h2>1</h2>
         <h2>2</h2>
@@ -39,12 +39,24 @@ const Projects = () => {
         <h2>.</h2>
       </div>
       <div className="projectsSec flex flex-col w-[80%]">
-      <div className="heading uppercase text-xl 500:text-3xl lg:text-4xl mt-2 md:tracking-wider text-commentGreen -ml-4 font-semibold italic text-center">
+        <div className="heading uppercase text-xl 500:text-3xl lg:text-4xl mt-2 md:tracking-wider text-commentGreen -ml-8 font-semibold italic text-center">
           <h1>// Projects</h1>
+        </div>
+        <div className="project-container">
+          <div className="project1">
+            <div className="image"></div>
+            <div className="title"></div>
+            <div className="desc"></div>
+            <div className="languages"></div>
+            <div className="links"></div>
+          </div>
+          <div className="project2"></div>
+          <div className="project3"></div>
+          <div className="project4"></div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
